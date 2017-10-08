@@ -1,0 +1,31 @@
+/**
+ * CSS for beyondposts
+ */
+
+.related-posts {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 2px dashed #ededed;
+}
+
+.related-posts a {
+    display: block;
+    margin-bottom: 2em;
+    background: #00ebeb;
+    padding: 2em;
+    text-decoration: none;
+    border: 1px solid #c3c3c3!important;
+}
+
+a.get-related-posts {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1em 2em;
+}
+
+.get-related-posts:hover,
+.get-related-posts:focus {
+    background: #ededed;
+    box-shadow: none!important;
+}
